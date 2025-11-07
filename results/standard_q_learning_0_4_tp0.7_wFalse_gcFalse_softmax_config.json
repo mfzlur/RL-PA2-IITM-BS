@@ -1,0 +1,16 @@
+{
+  "env_type": "standard",
+  "algorithm": "q_learning",
+  "start_state": [
+    0,
+    4
+  ],
+  "transition_prob": 0.7,
+  "wind": false,
+  "goal_change": false,
+  "exploration_type": "softmax",
+  "alpha": 0.1,
+  "gamma": 1.0,
+  "epsilon": 0.0,
+  "temperature": 0.1
+}

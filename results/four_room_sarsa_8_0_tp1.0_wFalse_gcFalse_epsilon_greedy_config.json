@@ -1,0 +1,16 @@
+{
+  "env_type": "four_room",
+  "algorithm": "sarsa",
+  "start_state": [
+    8,
+    0
+  ],
+  "transition_prob": 1.0,
+  "wind": false,
+  "goal_change": false,
+  "exploration_type": "epsilon_greedy",
+  "alpha": 0.01,
+  "gamma": 1.0,
+  "epsilon": 0.001,
+  "temperature": 1.0
+}

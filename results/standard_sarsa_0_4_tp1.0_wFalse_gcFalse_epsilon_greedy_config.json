@@ -1,0 +1,16 @@
+{
+  "env_type": "standard",
+  "algorithm": "sarsa",
+  "start_state": [
+    0,
+    4
+  ],
+  "transition_prob": 1.0,
+  "wind": false,
+  "goal_change": false,
+  "exploration_type": "epsilon_greedy",
+  "alpha": 0.1,
+  "gamma": 0.8,
+  "epsilon": 0.001,
+  "temperature": 0.0
+}
