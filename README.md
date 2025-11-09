@@ -44,6 +44,10 @@ This will run all 20 experiments with hyperparameter tuning:
 ```bash
 python td_learning_experiments.py
 ```
+To utilise multiprocessor by parallelizing the hyperparameter tuning runs (seeds) and the 100 final runs
+```bash
+python td_learning_experiments_parallelized.py
+```
 
 **Note:** This will take several hours to complete (~6,400 training runs).
 
